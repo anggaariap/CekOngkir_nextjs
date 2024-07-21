@@ -2,8 +2,8 @@
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/pokedex.git
-    cd pokedex
+    git clone https://github.com/your-username/project-name
+    cd project-name
     ```
 
 2. Install dependencies:
@@ -13,5 +13,5 @@
 
 3. Start the application:
     ```bash
-    npm start
+    npm run dev
     ```
