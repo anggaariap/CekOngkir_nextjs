@@ -1,0 +1,100 @@
+// @import ""../styles/mixins.scss';
+// @import '../styles/variables.scss';
+
+// .container {
+//   background-color: $color-black;
+//   width: 100%;
+//   display: flex;
+//   justify-content: center;
+// }
+
+// .postitionerContainer {
+//   @include container-center-content;
+//   width: 100%;
+//   flex-direction: column;
+// }
+
+// .contentContainer {
+//   color: $color-white;
+//   display: flex;
+//   justify-content: space-between;
+//   width: 100%;
+//   margin: 40px 0;
+//   @media (max-width: 850px) {
+//     justify-content: center;
+//     flex-direction: column;
+//   }
+// }
+
+// .logoMenuContainer {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-between;
+//   h2 {
+//     margin: 0;
+//     padding: 0;
+//     font-size: 2rem;
+//     font-family: $font-alata;
+//     justify-content: center;
+//     align-items: center;
+//   }
+//   @media (max-width: 850px) {
+//     justify-content: center;
+//     align-items: center;
+//     h2 {
+//       font-size: 2.5rem;
+//     }
+//   }
+// }
+
+// .socialContainer {
+//   display: flex;
+//   align-items: flex-end;
+//   justify-content: space-between;
+//   flex-direction: column;
+//   i {
+//     padding-top: 13px;
+//     transform: scale(1.8);
+//     margin: 0 13px;
+//   }
+//   p {
+//     color: $color-verydarkgrey;
+//     font-family: $font-alata;
+//   }
+//   @media (max-width: 850px) {
+//     justify-content: center;
+//     align-items: center;
+//     i {
+//       transform: scale(2.4);
+//       margin: 0 20px;
+//     }
+//     p {
+//       margin-top: 40px;
+//       font-size: 18px;
+//     }
+//   }
+// }
+
+// .menubar {
+//   margin-right: 15px;
+//   ul {
+//     display: flex;
+//     gap: 30px;
+//     padding-inline-start: 0;
+//     li {
+//       list-style-type: none;
+//       font-family: $font-alata;
+//       a {
+//         @include link-underliner;
+//       }
+//     }
+//   }
+//   @media (max-width: 850px) {
+//     ul {
+//       flex-direction: column;
+//       align-items: center;
+//       font-size: 1.5rem;
+//       margin: 3rem 0;
+//     }
+//   }
+// }
